@@ -39,11 +39,11 @@ hr {
 
 #header{
 display: table;
-height: 85vh;
+height: 95vh;
 width: 100%;
 }
 #header > div {
-vertical-align: middle;
+vertical-align: bottom;
 display: table-cell;
 }
 #headerbase{
