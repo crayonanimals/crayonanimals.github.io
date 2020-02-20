@@ -28,8 +28,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "chinese_rocksregular",Arial,sans-serif;
-	font-size: 35px;
+    font-family: 'chinese_rocksregular',Arial,sans-serif;
+	font-size: 45px;
     font-weight: 700;
     letter-spacing: 2px;
 }
