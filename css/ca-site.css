@@ -40,7 +40,7 @@ hr {
 
 #header{
 display: table;
-height: 70vh;
+height: 65vh;
 width: 100%;
 }
 #header > div {
@@ -49,11 +49,11 @@ display: table-cell;
 }
 #headerbase{
 display: table;
-height: 25vh;
+height: 35vh;
 width: 100%;
 }
 #headerbase > div{
-vertical-align: bottom;
+vertical-align: top;
 display: table-cell;
 }
 
