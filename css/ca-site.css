@@ -39,7 +39,7 @@ hr {
 
 #header{
 display: table;
-height: 95vh;
+height: 80vh;
 width: 100%;
 }
 #header > div {
@@ -52,7 +52,7 @@ height: 15vh;
 width: 100%;
 }
 #headerbase > div{
-vertical-align: middle;
+vertical-align: bottom;
 display: table-cell;
 }
 
