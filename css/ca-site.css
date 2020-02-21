@@ -69,11 +69,11 @@ display: table-cell;
 }
 
 .header-image {
-    background: url("https://komakogame.com/img/testTitle-large.PNG");
+    background: url("https://komakogame.com/img/testTitle-large.png");
 }
 @media only screen and (max-width: 250px) {
     .header-image {
-        background: url("https://komakogame.com/img/testTitle-small.PNG");
+        background: url("https://komakogame.com/img/testTitle-small.png");
     }
 }
 
