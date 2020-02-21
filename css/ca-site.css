@@ -4,9 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 @font-face {
-    font-family: 'chinese_rocksregular';
-    src: url('https://komakogame.com/fonts/chinese_rocks_rg-webfont.woff2') format('woff2'),
-         url('https://komakogame.com/fonts/chinese_rocks_rg-webfont.woff') format('woff');
+    font-family: 'providenceSansRegular';
+    src: url(../fonts/providence_sans_regular-webfont.woff2) format('woff2'),
+         url(../fonts/providence_sans_regular-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 	}
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-	font-family: 'chinese_rocksregular',Arial,sans-serif;
+	font-family: 'providenceSansRegular',Arial,sans-serif;
     text-transform: uppercase;
 	font-size: 45px;
     font-weight: 700;
@@ -69,8 +69,8 @@ display: table-cell;
 	color:#fff;
 	background-color: #af6c69;
 	cursor:pointer;
-	font-family: 'chinese_rocksregular',Arial,sans-serif;
-	font-size: 23px;
+	font-family: 'providenceSansRegular',Arial,sans-serif;
+	font-size: 22px;
 	border:0 none;
 }
 
