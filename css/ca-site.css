@@ -74,6 +74,15 @@ display: table-cell;
 	border:0 none;
 }
 
+.head-image {
+    background: url(../img/websiteHeader-large.gif);
+}
+@media only screen and (max-width: 250px) {
+    .head-image {
+        background: url(../img/websiteHeader-small.gif);
+    }
+}
+
 .brand,
 .address-bar {
     display: none;
