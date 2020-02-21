@@ -14,7 +14,7 @@
 body {
     font-family: Arial,sans-serif;
 /* background: url('../img/bg.jpg') no-repeat center center fixed; */
-    background-color: #c2958d;
+    background-color: #bd938a;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -61,17 +61,18 @@ display: table-cell;
 }
 
 #button {
-	background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20190314004249/sample-image2.png');
-    background-size: cover;
+	border-radius: 8px;
 	width: 100%;
 	min-width: 70px;
     max-width: 150px;
     height: 100%;
-}
-
-.thumbnail {
-    border: 1px;
-	background-color: #000000;
+	color:#fff;
+  	background-color:#af6c69;
+	background-image: url(https://komakogame.com/img/subBtn.png);
+	cursor:pointer;
+	font-family: 'chinese_rocksregular',Arial,sans-serif;
+	font-size: 23px;
+	border:0 none;
 }
 
 .brand,
@@ -138,9 +139,9 @@ display: table-cell;
 .img-border {
     float: none;
     margin: 0 auto 0;
-    border: #999999 solid 1px;
+    border: #000000 solid 4px;
 	overflow:hidden;
-	border-radius: 10px;
+	border-radius: 12px;
 }
 
 .img-left {
