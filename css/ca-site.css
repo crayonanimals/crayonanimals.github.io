@@ -73,11 +73,15 @@ display: table-cell;
 	border: 0 none;
 }
 
+.img{
+    margin: 20px auto;
+}
+
 .img-border {
     float: none;
     margin: 20px auto;
     border: #000000 solid 2px;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1396px) {
@@ -89,5 +93,10 @@ display: table-cell;
 @media screen and (max-width: 769px) {
 	#button{
 		margin: 10px auto 0px;
+	}
+	
+	.img-border {
+		width: 92%;
+		margin: 20px 4vw;
 	}
 }
