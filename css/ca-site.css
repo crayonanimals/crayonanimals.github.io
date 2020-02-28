@@ -5,7 +5,7 @@
  */
 @font-face {
 	font-family: 'providenceSansRegular';
-	src: url(../fonts/providence_sans_regular-webfont.woff2) format('woff2'),  url(../fonts/providence_sans_regular-webfont.woff) format('woff');
+	src: url(../fonts/providence_sans_regular-webfont.woff2) format('woff2'), url(../fonts/providence_sans_regular-webfont.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -39,7 +39,7 @@ p {
 }
 #newsletter-sub {
 	display: table;
-	height: 350px;
+	height: 300px;
 	width: 100%;
 }
 #newsletter-sub > div {
@@ -47,21 +47,26 @@ p {
 	display: table-cell;
 }
 #email-input {
+	border-radius: 4px;
+	padding: 0px 5px;
 	width: 100%;
-	max-width: 400px;
+	max-width: 500px;
 	height: 100%;
+	font-size: 16px;
+	border: 0 none;
 }
 #button {
-	border-radius: 8px;
+	border-radius: 4px;
+	padding: 5px 0px;
 	width: 100%;
-	min-width: 70px;
+	min-width: 75px;
 	max-width: 150px;
 	height: 100%;
 	color: #fff;
 	background-color: #af6c69;
 	cursor: pointer;
 	font-family: 'providenceSansRegular', Arial, sans-serif;
-	font-size: 22px;
+	font-size: 24px;
 	border: 0 none;
 }
 .img-header-large {
